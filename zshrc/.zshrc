@@ -51,10 +51,6 @@ alias dx="docker exec -it"
 
 
 
-# VIM
-alias v="/Users/omerxx/.nix-profile/bin/nvim"
-
-
 alias cl='clear'
 
 
@@ -84,6 +80,6 @@ f() { echo "$(find . -type f -not -path '*/.*' | fzf)" | pbcopy }
 fv() { nvim "$(find . -type f -not -path '*/.*' | fzf)" }
 
 
-export XDG_CONFIG_HOME="/Users/omerxx/.config"
+export XDG_CONFIG_HOME="/Users/wenxin/.config"
 
 eval "$(zoxide init zsh)"
