@@ -52,7 +52,7 @@ alias dx="docker exec -it"
 
 
 alias cl='clear'
-
+alias s='nvim'
 
 
 # VI Mode!!!
