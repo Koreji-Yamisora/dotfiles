@@ -5,3 +5,5 @@
 vim.opt.wrap = true
 vim.g.codeium_os = "Darwin"
 vim.g.codeium_arch = "arm64"
+vim.o.ignorecase = true -- ignore case by default
+vim.o.smartcase = true -- but respect uppercase if used

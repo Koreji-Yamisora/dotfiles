@@ -99,3 +99,4 @@ fi
 unset __conda_setup
 # <<< conda initialize <<<
 alias venv="source .venv/bin/activate"
+eval "$(direnv hook zsh)"
