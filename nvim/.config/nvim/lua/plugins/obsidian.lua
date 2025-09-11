@@ -16,6 +16,18 @@ return {
     ---@type render.md.UserConfig
     opts = { completions = { lsp = { enabled = true } } },
   },
+  -- lazy.nvim
+  {
+    "folke/snacks.nvim",
+    ---@type snacks.Config
+    opts = {
+      image = {
+        -- your image configuration comes here
+        -- or leave it empty to use the default settings
+        -- refer to the configuration section below
+      },
+    },
+  },
   {
     "obsidian-nvim/obsidian.nvim",
     version = "*", -- recommended, use latest release instead of latest commit

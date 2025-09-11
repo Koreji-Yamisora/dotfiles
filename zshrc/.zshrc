@@ -101,3 +101,8 @@ unset __conda_setup
 # <<< conda initialize <<<
 alias venv="source .venv/bin/activate"
 eval "$(direnv hook zsh)"
+
+# Added by LM Studio CLI (lms)
+export PATH="$PATH:/Users/wenxin/.lmstudio/bin"
+# End of LM Studio CLI section
+
