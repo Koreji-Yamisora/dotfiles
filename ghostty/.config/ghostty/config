@@ -1,4 +1,4 @@
-theme = catppuccin-mocha
+theme = catppuccin-mocha.conf
 font-size = 16
 background-blur-radius = 40
 mouse-hide-while-typing = true
